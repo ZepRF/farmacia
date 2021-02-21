@@ -1,0 +1,35 @@
+unit uServicoControler;
+
+interface
+uses
+  uServicoModel;
+type
+
+  TServicoControler = class
+  private
+  public
+    function salvar(model:TServicoModel):boolean;
+  end;
+
+implementation
+
+{ TServicoControler }
+
+uses uServicoDao, System.SysUtils, System.Generics.Collections;
+
+function TServicoControler.salvar(var model: TServicoModel): boolean;
+var
+  servicoDao:TServicoDao;
+begin
+  servicoDao := TServicoDao.Create;
+  try
+
+    Result := servicoDao.salvar(model);
+    if not Result then
+      raise Exception.Create('Não foi possível concluir esta operação');
+  finally
+    servicoDao.Free;
+  end;
+end;
+
+end.

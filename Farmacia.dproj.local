@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/02/19 18:29:11.000.542,=C:\Users\Zan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 18:29:53.000.982,C:\Users\Zan\Desktop\Farmacia\view\frmPrincipal.pas=C:\Users\Zan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 18:29:53.000.982,C:\Users\Zan\Desktop\Farmacia\view\frmPrincipal.dfm=C:\Users\Zan\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/02/19 18:30:01.000.589,C:\Users\Zan\Desktop\Farmacia\Farmacia.dproj=C:\Users\Zan\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/02/19 18:31:22.000.697,=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 18:31:40.000.608,C:\Users\Zan\Desktop\Farmacia\model\procedimentoModel.pas=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 18:38:00.000.096,=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 18:38:13.000.027,C:\Users\Zan\Desktop\Farmacia\model\servicoModel.pas=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 18:47:19.000.200,=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 18:55:48.000.470,C:\Users\Zan\Desktop\Farmacia\model\servicoProcedimentoModel.pas=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 18:55:58.000.753,C:\Users\Zan\Desktop\Farmacia\model\uProcedimentoModel.pas=C:\Users\Zan\Desktop\Farmacia\model\procedimentoModel.pas</Transaction>
+    <Transaction>2021/02/19 18:56:04.000.737,C:\Users\Zan\Desktop\Farmacia\model\uServicoModel.pas=C:\Users\Zan\Desktop\Farmacia\model\servicoModel.pas</Transaction>
+    <Transaction>2021/02/19 18:56:10.000.357,C:\Users\Zan\Desktop\Farmacia\model\uSservicoProcedimentoModel.pas=C:\Users\Zan\Desktop\Farmacia\model\servicoProcedimentoModel.pas</Transaction>
+    <Transaction>2021/02/19 18:57:04.000.395,C:\Users\Zan\Desktop\Farmacia\model\uServicoProcedimentoModel.pas=C:\Users\Zan\Desktop\Farmacia\model\uSservicoProcedimentoModel.pas</Transaction>
+    <Transaction>2021/02/19 20:03:07.000.282,=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 20:03:24.000.701,C:\Users\Zan\Desktop\Farmacia\dao\dmConexao.dfm=C:\Users\Zan\Desktop\Farmacia\Unit1.dfm</Transaction>
+    <Transaction>2021/02/19 20:03:24.000.701,C:\Users\Zan\Desktop\Farmacia\dao\dmConexao.pas=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 20:32:31.000.946,C:\Users\Zan\Desktop\Farmacia\dao\dmDataBase.pas=C:\Users\Zan\Desktop\Farmacia\dao\dmConexao.pas</Transaction>
+    <Transaction>2021/02/19 20:32:31.000.946,C:\Users\Zan\Desktop\Farmacia\dao\dmDataBase.dfm=C:\Users\Zan\Desktop\Farmacia\dao\dmConexao.dfm</Transaction>
+    <Transaction>2021/02/19 20:32:51.000.581,=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 20:33:06.000.483,C:\Users\Zan\Desktop\Farmacia\dao\uProcedimentoDao.pas=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 20:34:29.000.884,=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 20:34:40.000.324,C:\Users\Zan\Desktop\Farmacia\uServicoDao.pas=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 20:37:09.000.797,=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 20:37:24.000.970,C:\Users\Zan\Desktop\Farmacia\Unit1.pas=C:\Users\Zan\Desktop\Farmacia\dao\uServicoDao.pas</Transaction>
+    <Transaction>2021/02/19 20:37:32.000.132,=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 20:38:44.000.868,C:\Users\Zan\Desktop\Farmacia\Unit1.pas=C:\Users\Zan\Desktop\Farmacia\controler\uProcedimentoControler.pas</Transaction>
+    <Transaction>2021/02/19 20:38:51.000.348,=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 20:39:02.000.173,C:\Users\Zan\Desktop\Farmacia\Unit1.pas=C:\Users\Zan\Desktop\Farmacia\controler\uServicoControler.pas</Transaction>
+    <Transaction>2021/02/19 20:39:18.000.105,=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/19 20:39:25.000.698,=C:\Users\Zan\Desktop\Farmacia\Unit2.pas</Transaction>
+    <Transaction>2021/02/19 20:39:42.000.803,C:\Users\Zan\Desktop\Farmacia\Unit2.dfm=C:\Users\Zan\Desktop\Farmacia\view\uFrmProcedimento.dfm</Transaction>
+    <Transaction>2021/02/19 20:39:42.000.803,C:\Users\Zan\Desktop\Farmacia\Unit2.pas=C:\Users\Zan\Desktop\Farmacia\view\uFrmProcedimento.pas</Transaction>
+    <Transaction>2021/02/19 20:39:49.000.243,C:\Users\Zan\Desktop\Farmacia\view\frmPrincipal.pas=C:\Users\Zan\Desktop\Farmacia\view\uFrmPrincipal.pas</Transaction>
+    <Transaction>2021/02/19 20:39:49.000.243,C:\Users\Zan\Desktop\Farmacia\view\frmPrincipal.dfm=C:\Users\Zan\Desktop\Farmacia\view\uFrmPrincipal.dfm</Transaction>
+    <Transaction>2021/02/19 20:39:55.000.055,=C:\Users\Zan\Desktop\Farmacia\Unit3.pas</Transaction>
+    <Transaction>2021/02/19 20:40:08.000.124,C:\Users\Zan\Desktop\Farmacia\Unit3.pas=C:\Users\Zan\Desktop\Farmacia\view\uFrmServico.pas</Transaction>
+    <Transaction>2021/02/19 20:40:08.000.124,C:\Users\Zan\Desktop\Farmacia\Unit3.dfm=C:\Users\Zan\Desktop\Farmacia\view\uFrmServico.dfm</Transaction>
+    <Transaction>2021/02/20 11:04:01.000.614,C:\Users\Zan\Desktop\Farmacia\dao\uDMConexao.pas=C:\Users\Zan\Desktop\Farmacia\dao\dmDataBase.pas</Transaction>
+    <Transaction>2021/02/20 11:04:01.000.614,C:\Users\Zan\Desktop\Farmacia\dao\uDMConexao.dfm=C:\Users\Zan\Desktop\Farmacia\dao\dmDataBase.dfm</Transaction>
+    <Transaction>2021/02/20 11:08:34.000.038,C:\Users\Zan\Desktop\Farmacia\dao\uDMDataBase.dfm=C:\Users\Zan\Desktop\Farmacia\dao\uDMConexao.dfm</Transaction>
+    <Transaction>2021/02/20 11:08:34.000.038,C:\Users\Zan\Desktop\Farmacia\dao\uDMDataBase.pas=C:\Users\Zan\Desktop\Farmacia\dao\uDMConexao.pas</Transaction>
+    <Transaction>2021/02/20 11:18:10.000.914,=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+    <Transaction>2021/02/20 11:19:26.000.299,C:\Users\Zan\Desktop\Farmacia\dao\uPadraoDao.pas=C:\Users\Zan\Desktop\Farmacia\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="controler"/>
+    <File Path="controler\uProcedimentoControler.pas"/>
+    <File Path="controler\uServicoControler.pas"/>
+    <File Path="dao"/>
+    <File Path="dao\uDMDataBase.pas"/>
+    <File Path="dao\uDMDataBase.dfm"/>
+    <File Path="dao\uProcedimentoDao.pas"/>
+    <File Path="dao\uServicoDao.pas"/>
+    <File Path="dao\uPadraoDao.pas"/>
+    <File Path="model"/>
+    <File Path="model\uProcedimentoModel.pas"/>
+    <File Path="model\uServicoModel.pas"/>
+    <File Path="model\uServicoProcedimentoModel.pas"/>
+    <File Path="view"/>
+    <File Path="view\uFrmPrincipal.pas"/>
+    <File Path="view\uFrmPrincipal.dfm"/>
+    <File Path="view\uFrmProcedimento.pas"/>
+    <File Path="view\uFrmProcedimento.dfm"/>
+    <File Path="view\uFrmServico.pas"/>
+    <File Path="view\uFrmServico.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

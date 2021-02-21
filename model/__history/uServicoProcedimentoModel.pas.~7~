@@ -1,0 +1,44 @@
+unit uServicoProcedimentoModel;
+
+interface
+
+uses uServicoModel, uProcedimentoModel, System.SysUtils;
+
+type
+  TServicoProcedimentoModel = class(TObject)
+  private
+    FidProcedimento: TProcedimentoModel;
+    Fid: integer;
+    FidServico: TServicoModel;
+    procedure SetIdProcedimento(const Value: TProcedimentoModel);
+    procedure SetIdServico(const Value: TServicoModel);
+  public
+    property id:integer read Fid write Fid;
+    property idServico:TServicoModel read FidServico write SetIdServico;
+    property idProcedimento:TProcedimentoModel read FidProcedimento write SetIdProcedimento;
+    destructor Destroy; override;
+  end;
+
+
+implementation
+
+{ TServicoProcedimentoModel }
+
+destructor TServicoProcedimentoModel.Destroy;
+begin
+  FreeAndNil(FidProcedimento);
+  FreeAndNil(FidServico);
+  inherited;
+end;
+
+procedure TServicoProcedimentoModel.SetIdProcedimento(const Value: TProcedimentoModel);
+begin
+  FidProcedimento := Value;
+end;
+
+procedure TServicoProcedimentoModel.SetIdServico(const Value: TServicoModel);
+begin
+  FidServico := Value;
+end;
+
+end.

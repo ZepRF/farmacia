@@ -1,0 +1,15 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 187
+  Width = 253
+  object FDConexao: TFDConnection
+    Params.Strings = (
+      'Database=farmacia'
+      'User_Name=farmacia'
+      'Password=123456'
+      'DriverID=MySQL')
+    LoginPrompt = False
+    Left = 104
+    Top = 64
+  end
+end

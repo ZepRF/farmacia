@@ -1,0 +1,41 @@
+unit uProcedimentoControler;
+
+interface
+
+uses
+  uProcedimentoDao, System.SysUtils;
+
+type
+
+  TProcedimentoControler = class
+  private
+    FProcedimentoDao:TProcedimentoDao;
+  public
+    constructor Create;
+    destructor Destroy; override;
+    function consultar(pDesc:string):Tlist<ProcedimentoModel>;
+
+  end;
+
+implementation
+
+{ TProcedimentoControler }
+
+function TProcedimentoControler.consultar(pDesc: string): Tlist<ProcedimentoModel>;
+begin
+  Result := FProcedimentoDao.consultar(pDesc);
+end;
+
+constructor TProcedimentoControler.Create;
+begin
+  inherited;
+  FProcedimentoDao := TProcedimentoDao.Create;
+end;
+
+destructor TProcedimentoControler.Destroy;
+begin
+  FreeAndNil(FProcedimentoDao);
+  inherited;
+end;
+
+end.

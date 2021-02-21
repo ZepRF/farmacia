@@ -1,0 +1,29 @@
+unit uServicoControler;
+
+interface
+uses
+  uServicoModel;
+type
+
+  TServicoControler = class
+  private
+  public
+    procedure salvar(
+  end;
+
+implementation
+
+{ TServicoControler }
+
+constructor TServicoControler.Create;
+begin
+
+end;
+
+destructor TServicoControler.Destroy;
+begin
+
+  inherited;
+end;
+
+end.

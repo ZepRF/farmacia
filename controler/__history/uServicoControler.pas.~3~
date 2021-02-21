@@ -1,0 +1,19 @@
+unit uServicoControler;
+
+interface
+type
+
+  TServicoControler = class
+  private
+
+  public
+    constructor Create; override;
+    destructor Destroy; override;
+    
+  published
+
+  end;
+
+implementation
+
+end.

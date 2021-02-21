@@ -1,0 +1,24 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 187
+  Width = 253
+  object FDConexao: TFDConnection
+    Params.Strings = (
+      'Database=farmacia'
+      'User_Name=farmacia'
+      'Password=123456'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 24
+    Top = 24
+  end
+  object FDQuery: TFDQuery
+    Connection = FDConexao
+    SQL.Strings = (
+      'select * from procedimentos')
+    Left = 72
+    Top = 24
+  end
+end

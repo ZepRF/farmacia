@@ -1,0 +1,27 @@
+unit servicoModel;
+
+interface
+type
+  TServicoModel = class
+  private
+    Fpaciente: string;
+    Fid: integer;
+    FvalorTotal: double;
+    Ffarmaceutico: string;
+    Fdata: TDateTime;
+    Fobservacoes: string;
+    { private declarations }
+    property id:integer read Fid write Fid;
+    property data:TDateTime read Fdata write Fdata;
+    property farmaceutico:string read Ffarmaceutico write Ffarmaceutico;
+    property paciente:string read Fpaciente write Fpaciente;
+    property valorTotal:double read FvalorTotal write FvalorTotal;
+    property observacoes:string read Fobservacoes write Fobservacoes;
+
+  public
+    { public declarations }
+  end;
+
+implementation
+
+end.

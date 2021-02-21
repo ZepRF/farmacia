@@ -1,0 +1,37 @@
+unit uServicoProcedimentoModel;
+
+interface
+
+uses uProcedimentoModel, System.SysUtils;
+
+type
+  TServicoProcedimentoModel = class(TObject)
+  private
+    Fprocedimento: TProcedimentoModel;
+    Fid: integer;
+    function getProcedimento: TProcedimentoModel;
+
+  public
+    property id:integer read Fid write Fid;
+    property procedimento:TProcedimentoModel read getProcedimento;
+    destructor Destroy; override;
+  end;
+
+implementation
+
+{ TServicoProcedimentoModel }
+destructor TServicoProcedimentoModel.Destroy;
+begin
+  FreeAndNil(Fprocedimento);
+  inherited;
+end;
+
+
+function TServicoProcedimentoModel.getProcedimento: TProcedimentoModel;
+begin
+  if not Assigned(Fprocedimento) then
+    Fprocedimento := TProcedimentoModel.Create;
+
+end;
+
+end.

@@ -1,0 +1,22 @@
+unit uServicoControler;
+
+interface
+uses
+  uServicoModel;
+type
+
+  TServicoControler = class
+  private
+  public
+    function salvar(model:TServicoModel):boolean;
+  end;
+
+implementation
+
+{ TServicoControler }
+function TServicoControler.salvar(model: TServicoModel): boolean;
+begin
+
+end;
+
+end.

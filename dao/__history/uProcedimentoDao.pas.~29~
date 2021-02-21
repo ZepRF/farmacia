@@ -1,0 +1,66 @@
+unit uProcedimentoDao;
+
+interface
+
+uses
+  uPadraoDao, uProcedimentoModel, System.Generics.Collections;
+
+type
+  TProcedimentoDao = class(TPadraoDao)
+  private
+  public
+    function consultar(pDesc:string):TList<TProcedimentoModel>;
+    function excluir(pId:Integer):Boolean;
+  end;
+
+implementation
+
+uses System.SysUtils;
+
+{ TProcedimentoDao }
+function TProcedimentoDao.consultar(pDesc: string): TList<TProcedimentoModel>;
+var
+  listRetorno:TList<TProcedimentoModel>;
+  model:TProcedimentoModel;
+begin
+  listRetorno := TList<TProcedimentoModel>.Create;
+  try
+    query.Close;
+    query.SQL.Text := 'SELECT * FROM PROCEDIMENTOS WHERE UPPER(DESCRICAO) LIKE UPPER(:pDesc)';
+    query.ParamByName('pDesc').Value := '%' + pDesc + '%';
+    query.Open;
+
+    while not query.Eof do
+    begin
+      model := TProcedimentoModel.Create;
+      model.id := query.FieldByName('id').Value;
+      model.descricao := query.FieldByName('descricao').Value;
+      model.tipo := query.FieldByName('tipo').Value;
+      model.valor := query.FieldByName('valor').Value;
+      listRetorno.Add(model);
+      query.Next;
+    end;
+
+    Result := listRetorno;
+  finally
+    query.Close;
+  end;
+
+end;
+
+
+
+function TProcedimentoDao.excluir(pId:Integer): Boolean;
+begin
+  try
+    Result := True;
+    query.Close;
+    query.SQL.Text := 'DELETE FROM PROCEDIMENTOS WHERE ID = :ID';
+    query.ParamByName('ID').Value := pid;
+    query.ExecSQL;
+  except
+    Result := False;
+  end;
+end;
+
+end.

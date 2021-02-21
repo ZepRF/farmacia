@@ -1,0 +1,49 @@
+unit uProcedimentoControler;
+
+interface
+
+uses
+  uProcedimentoDao, uProcedimentoModel, System.SysUtils, System.Generics.Collections;
+
+type
+
+  TProcedimentoControler = class
+  private
+    FProcedimentoDao:TProcedimentoDao;
+  public
+    constructor Create;
+    destructor Destroy; override;
+    function consultar(pDesc:string):Tlist<TProcedimentoModel>;
+    function excluir(pId:Integer):Boolean;
+
+  end;
+
+implementation
+
+uses Vcl.Dialogs;
+
+{ TProcedimentoControler }
+function TProcedimentoControler.consultar(pDesc: string): Tlist<TProcedimentoModel>;
+begin
+  Result := FProcedimentoDao.consultar(pDesc);
+end;
+
+constructor TProcedimentoControler.Create;
+begin
+  inherited;
+  FProcedimentoDao := TProcedimentoDao.Create;
+end;
+
+destructor TProcedimentoControler.Destroy;
+begin
+  FreeAndNil(FProcedimentoDao);
+  inherited;
+end;
+
+function TProcedimentoControler.excluir(pId: Integer): Boolean;
+begin
+  if not FProcedimentoDao.excluir(pId) then
+
+end;
+
+end.
