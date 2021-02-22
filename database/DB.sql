@@ -27,3 +27,10 @@ CREATE TABLE `servicos_procedimentos` (
   CONSTRAINT `fk_procedimentos` FOREIGN KEY (`id_procedimentos`) REFERENCES `procedimentos` (`id`) ON DELETE CASCADE,
   CONSTRAINT `fk_servicos` FOREIGN KEY (`id_servico`) REFERENCES `servicos` (`id`) ON DELETE CASCADE
 );
+
+INSERT INTO  procedimentos (id,descricao,tipo,valor) VALUES  (1,'Atenção farmacêutica domiciliar',0,100.0);
+INSERT INTO  procedimentos (id,descricao,tipo,valor) VALUES  (2,'Aferição de pressão arterial',1,50.0);
+INSERT INTO  procedimentos (id,descricao,tipo,valor) VALUES  (3,'Aferição de temperatura corporal',1,25.0);
+INSERT INTO  procedimentos (id,descricao,tipo,valor) VALUES  (4,'Aferição de glicemia capilar',2,75.0);
+INSERT INTO  procedimentos (id,descricao,tipo,valor) VALUES  (5,'Inalação',3,52.0);
+INSERT INTO  procedimentos (id,descricao,tipo,valor) VALUES  (6,'Aplicação de injetáveis',3,50.0);
